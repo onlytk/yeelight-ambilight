@@ -1,10 +1,6 @@
 import sys
-from PIL import Image
 import pyautogui
 import time
-import keyboard
-import pytesseract as tess
-tess.pytesseract.tesseract_cmd = r'C:\Users\tillk\AppData\Local\Tesseract-OCR\tesseract.exe'
 from PIL import Image
 import requests
 import pprint
@@ -14,8 +10,6 @@ import cv2
 import numpy as np
 import os
 from os import system, name 
-
-
 
 
 def calculate_brightness(image):
