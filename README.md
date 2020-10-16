@@ -1,3 +1,7 @@
 # Yeelight Ambilight
-tested on windows 10
-!change the ip!
+INSTALLATION
+
+'''
+pip3 install pyautogui opencv-python
+sudo apt-get install python3-tk python3-dev scrot
+'''
