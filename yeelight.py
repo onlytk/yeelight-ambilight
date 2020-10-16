@@ -70,7 +70,6 @@ signal.signal(signal.SIGINT, signal_handler)
 
 
 while True:
-    os.system("cls")
     time.sleep(0.2)
     im = pyautogui.screenshot(region=(960,540,100,100))
     im.save('pic.png') 
